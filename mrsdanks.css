@@ -1,0 +1,185 @@
+body {
+    color: #33ccff;
+    background-color: lightslategray;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-image: radial-gradient(#FFFFFF, #33ccff);
+    color: #ff9900;
+    line-height: 500%;
+    text-indent: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    font-size: 120%;
+}
+
+header a {
+    text-decoration: none;
+    transition: color 2s linear;
+}
+
+header a:link {
+    color: #ff9900;
+}
+
+header a:visited {
+    color: #ff9900;
+}
+
+header a:hover {
+    color: red;
+}
+
+h2 {
+    padding-top: 0.5em;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 100%;
+    padding: 1.5em;
+    float: left;
+    width: 160px;
+    color: #33ccff;
+}
+
+nav a {
+    text-decoration: none;
+    transition: color 2s linear;
+}
+
+nav a:visited {
+    color: #33ccff;
+}
+
+nav a:link {
+    color: #33ccff;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    line-height: 200%;
+}
+
+main {
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+}
+
+p {
+    line-height: 200%;
+}
+
+#required-fields {
+    line-height: 200%;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+table {
+    border: 3px solid #33ccff;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 0.5em;
+    border: 3px solid #33ccff;
+    color: #ff9900;
+}
+
+td {
+    text-align: center;
+    font-style: italic;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: hsl(195, 100%, 95%);
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 130px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 130px;
+}
+
+#wrapper {
+    background-image: linear-gradient(to bottom, #FFFFFF, #ff9900);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+}
+
+#cupcake {
+    background-image: url(new-cupcake.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 150px;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 463px;
+}
+
+#pictures {
+    margin-top: -6.5em;
+}
+
+footer {
+    background-color: #FFFFFF;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 190px;
+}
+
+footer a:hover {
+    color: red;
+}

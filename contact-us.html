@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mrs. Danks Desserts</title>
+    <meta charset="utf-8">
+    <link href="mrsdanks.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1><a href="index.html">Mrs. Danks Desserts</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact Us</h2>
+            <p>
+                We would love to hear from you. Please submit any comments,
+                questions or concerns below.
+            </p>
+            <div id="required-fields">
+                All fields are required to be filled out.
+            </div>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="FName">First Name:</label>
+                <input type="text" name="FName" id="FName" required="required">
+                <label for="LName">Last Name:</label>
+                <input type="text" name="LName" id="LName" required="required">
+                <label for="e-mail">E-Mail Address:</label>
+                <input type="email" name="e-mail" id="e-mail" required="required">
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="2" cols="30"></textarea>
+                <label for="submit"></label>
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2023 Mrs. Danks Desserts LLC<br>
+            <a href="mailto:service@mrs.danks.com">
+                service@mrs.danks.com
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
